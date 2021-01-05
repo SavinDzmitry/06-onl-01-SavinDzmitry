@@ -1,6 +1,21 @@
 
 @import url('../css/awesome.css'); 
+@import url('../css/bg.css');
 
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
 
 
 

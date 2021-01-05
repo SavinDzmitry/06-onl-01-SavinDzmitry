@@ -1,0 +1,109 @@
+.pricing {
+    padding: 15px;
+    background-color: #F5F5F5;
+}
+.conteiner {
+}
+.header {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+}
+.pricing_title {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    
+}
+.pricing_line {
+    margin: 0 auto;
+    width: 64px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+.pricing_text {
+    margin-top: 34px;
+}
+.pricing-row {
+margin-top: 64px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.pricing-row_element {
+width: 340px;
+margin: 0 10px;
+padding-bottom:80px;
+    
+}
+.pricing-row_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pricing-row_list_heading {
+    width: 340px;
+    height: 50px;
+    background-color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color:#FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2px;
+    padding-top: 15px
+}
+.pricing-row_list_price {
+    width: 340px;
+    height: 100px;
+    background-color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color:#FFFFFF;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 2px;
+    padding-top: 26px
+}
+.pricing-row_list_terms {
+    background-color: #333333;
+    font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+
+}
+.pricing-row_list_terms_orange {
+  background-color: #D98943;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+.pricing-row_list_storage {
+    width: 340px;
+    height: 40px;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(134, 135, 139, 1);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 4px;
+    padding-top: 10px;
+}
