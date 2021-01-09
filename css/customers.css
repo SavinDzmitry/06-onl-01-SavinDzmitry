@@ -1,0 +1,58 @@
+.customers {
+}
+
+.container {
+}
+
+.header {
+}
+
+.customers_title {
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+text-align: center;
+text-transform: uppercase;
+color: #212121;
+margin-top: 80px;
+}
+
+.customers_title::after {
+ content: '';
+ display: block;
+ width: 64px;
+ height: 2px;
+ margin: 34px auto 34px auto;
+ background-color: #e72424;
+}
+
+.customers_text {
+margin-bottom: 30px;
+font-family: 'Open Sans';
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+color: #86878b
+}
+
+.customers-cards {
+}
+
+.customers-cards_item {
+}
+
+.customers-cards_item_comment {
+}
+
+.customers-cards_item_icon {
+}
+
+.customers-cards_item_info {
+}
+
+.customers-cards_item_info-name {
+}
+
+.customers-cards_item_info-position {
+}
