@@ -1,0 +1,77 @@
+.axure {
+padding: 15px 0;
+background: url('../img/png/background\ 1.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+.axure::after{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.55);
+}
+
+.conteiner {
+position: relative;
+z-index: 1
+}
+
+
+.axure_title {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #FFFFFF;
+position: relative;
+margin-top: 58px;
+}
+
+.axure_title::after{
+content: '';
+ display: block;
+ width: 64px;
+ height: 1px;
+ margin: 34px auto 34px auto;
+ background-color:#FFFFFF;
+}
+
+.axure_text {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: rgba(255, 255, 255, 0.8);
+
+}
+
+.axure_button {
+display: block;
+border: 1px solid #ffffff;
+padding: 11px 26px;
+margin: 57px auto 23px auto;
+width: 135px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+color: #ffffff;
+margin-bottom: 38px;
+
+}
+
+.axure_button::after{
+background-color: rgba(255, 255, 255, 0.55);
+}

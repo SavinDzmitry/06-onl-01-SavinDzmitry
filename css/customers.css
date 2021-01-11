@@ -1,4 +1,7 @@
 .customers {
+margin-top: 80px;
+width: 100%;
+margin-bottom: 120px;
 }
 
 .container {
@@ -8,7 +11,7 @@
 }
 
 .customers_title {
-font-family: Raleway;
+font-family: 'Raleway';
 font-style: normal;
 font-weight: normal;
 font-size: 36px;
@@ -107,35 +110,13 @@ flex-wrap: wrap;
     color: #86878b;
 }
 
-/*.customers-cards_item_icon {
-    width: 70px;
-    height: 70px;
-    margin: 0px 45px 0px 30px;
-}
 
-.customers-cards_item_info {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
-}
 
-.customers-cards_item_info-name {
-    font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
-  text-align: center;
-  color: #333333;
-}
 
-.customers-cards_item_info-position {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
-    color: #86878B;
-}
+
+
+
+
+
+
+
