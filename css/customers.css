@@ -80,7 +80,7 @@ flex-wrap: wrap;
     display: flex;
 }
 .customerss-cards-photo {
-    margin: 0 45px 0 45px;
+    margin: 0 45px 0 30px;
     width: 70px;
     height: 70px;
 }
