@@ -1,0 +1,74 @@
+.social {
+width: 100%;
+background: #f8efef
+}
+
+.conteiner {
+display: flex;
+justify-content: space-between;
+align-items: center
+}
+
+.social-description {
+max-width: 365px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.social-description_title {
+color: #333333;
+padding: 7px 0px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+}
+
+.social-description_text {
+padding:7px 0px;
+color: #86878B;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+}
+
+.social-icons {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 15px -32px 18px -32px;
+font-size: 42px;
+}
+
+.social-icons_item {
+display: inline-block;
+justify-content: space-around;
+font-size: 36px;
+padding: 0px 15px;
+margin: 0px 10px;
+}
+
+.fab {
+color: #c9c9c9;
+transition: ease 0.5s;
+}
+
+.fab:hover{
+color: greenyellow;
+transform: scale(1.5);
+}
+
+
+.fas {
+    color: #c9c9c9;
+  transition: ease 1s;
+}
+
+.fas:hover{
+color: greenyellow;
+transform: scale(1.5);
+}
+
