@@ -4,12 +4,13 @@ background: #000000;
 }
 
 .conteiner {
-display: flex;
+/*display: flex;
 align-items: center;
-justify-content: space-between;
+justify-content: space-between;*/
 }
 
 .logo {
+    
    
 }
 
@@ -44,6 +45,7 @@ font-size: 15px;
 line-height: 20px;
 text-transform: capitalize;
 margin: 25px -48px 25px -48px;
+justify-content: flex-end;
 }
 
 .navigation_list-item {

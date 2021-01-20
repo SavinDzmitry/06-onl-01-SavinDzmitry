@@ -5,6 +5,7 @@
 @import url('../css/axure.css');
 @import url('../css/navigation.css');
 @import url('../css/social.css');
+@import url("../css/footer.css");
 
 
 
@@ -15,6 +16,7 @@
   }
   
   .container {
+    
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
