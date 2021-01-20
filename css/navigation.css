@@ -4,14 +4,17 @@ background: #000000;
 }
 
 .conteiner {
-/*display: flex;
-align-items: center;
-justify-content: space-between;*/
+
 }
 
-.logo {
-    
-   
+
+.navigation-conteiner {
+display: flex;
+align-items: center;
+justify-content: space-between;   
+}
+
+.logo {  
 }
 
 .logo-text-ax {
@@ -50,10 +53,12 @@ justify-content: flex-end;
 
 .navigation_list-item {
 margin: 0 48px 0 48px;
+
 }
 
 .navigation-link {
 color: rgba(255, 255, 255, 0.7);
+text-decoration: none;
 }
 .navigation-link:hover{
 color: #ffffff;

@@ -21,15 +21,22 @@
     color: #212121;
     
 }
-.awesome-section_line {
+.awesome-section_title::after {
+    content: '';
+ display: block;
  width: 64px;
+ height: 1px;
+ margin: 34px auto 34px auto;
+ background-color:#eb7311;
+/*width: 64px;
 height: 2px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 25px;
 margin-bottom: 30px;
-background-color: orange;
+background-color: orange;*/
 }
+
 .awesome-section_text {
 font-size: 14px;
 line-height: 19px;

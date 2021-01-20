@@ -69,9 +69,10 @@ line-height: 20px;
 text-align: center;
 color: #ffffff;
 margin-bottom: 38px;
+text-decoration: none;
 
 }
 
-.axure_button::after{
+.axure_button:hover{
 background-color: rgba(255, 255, 255, 0.55);
 }

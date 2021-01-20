@@ -1,0 +1,129 @@
+.feautures {
+    width: 100%;
+}
+
+.conteiner {
+   
+    
+}
+
+.bloc-tabs {
+display: block;
+margin-top: 120px;
+display: inline-flex;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap ;
+}
+
+.bloc-tabs_list {
+padding-inline-start: 0px;
+margin: 0 30px;
+}
+
+.bloc-tabs_list-item {
+margin: 10px 10px;
+width: 50px;
+/*height: 80px;*/
+padding: 45px 35px ;
+border-radius: 4px ;
+background-color: #333333;
+font-family: 'Open Sans';
+font-weight: 700;
+font-style: normal;
+font-size: 15px;
+line-height: 20.43px;
+color: #ffffff;
+text-transform: uppercase;
+text-align: center;
+}
+
+
+
+.bloc-tabs_list-item:first-child {
+background-color: #ec7979;
+  }
+  .bloc-tabs_list-item:hover {
+background-color:#33333390;
+  }
+  .bloc-tabs_list-item:first-child:hover {
+background-color: #ec797990;
+  }
+
+
+.bloc-info {
+max-width: 570px;
+;
+
+
+}
+
+.bloc-info_title {
+font-family: 'Open Sans';
+font-weight: 700;
+font-style: normal;
+font-size: 20px;
+text-transform: uppercase;
+padding-bottom: 30px;
+}
+
+.bloc-info_text-1 {
+padding-top: 28px;
+font-family: 'Open Sans';
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+line-height: 19.07px;
+color: #86878b;
+text-transform: uppercase
+}
+
+.bloc-info_text-2 {
+padding-top: 19px;
+font-family: 'Open Sans';
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+line-height: 19.07px;
+color: #86878b;
+text-transform: uppercase
+}
+
+.bloc-info_button {
+display: block;
+ border: 1px solid #ec7979;
+background-color: #ec7979;
+width: 135px;
+padding: 11px 26px;
+text-decoration: none;
+text-align: center;
+margin: 100px auto 100px 0;
+font-family: 'Open Sans';
+font-weight: 600;
+font-style: normal;
+font-size: 15px;
+line-height: 20.43px;
+color: #ffffff;
+}
+
+.bloc-info_button:hover {
+transition: all 0.5s;
+color: rgb(255, 255, 255);
+border: 1px solid #333333;
+background-color: rgba(70, 70, 17, 0.75);
+}
+
+.bloc-image_conteiner {
+    width: 320px;
+    height: 253px;
+    margin: -29px 29px;  
+    
+   
+
+}
+
+
+.bloc-image {
+    
+    
+}

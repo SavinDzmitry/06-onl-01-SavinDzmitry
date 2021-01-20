@@ -21,16 +21,23 @@ padding: 0px;
     font-weight: normal;
     
 }
-.pricing_line {
-    margin: 0 auto;
+.pricing_title::after {
+    content: '';
+    display: block;
+    width: 64px;
+    height: 1px;
+    margin: 34px auto 34px auto;
+    background-color:#eb1f11;
+
+   /* margin: 0 auto;
     width: 64px;
     height: 2px;
     margin-left: auto;
     margin-right: auto;
-    background-color: red;
+    background-color: red;*/
 }
 .pricing_text {
-    margin-top: 34px;
+    margin-top: 0px;
 }
 .pricing-row {
 margin-top: 64px;

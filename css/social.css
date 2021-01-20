@@ -4,9 +4,13 @@ background: #f8efef
 }
 
 .conteiner {
-/*display: flex;
+
+}
+
+.social-conteiner {
+display: flex;
 justify-content: space-between;
-align-items: center;*/
+align-items: center; 
 }
 
 .social-description {
@@ -38,8 +42,8 @@ line-height: 19px;
 .social-icons {
 display: flex;
 flex-wrap: wrap;
-justify-content: flex-end;
-align-content: space-between;
+justify-content: space-between;
+
 margin: 15px -32px 18px -32px;
 font-size: 42px;
 }
