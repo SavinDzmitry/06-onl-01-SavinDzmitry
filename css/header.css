@@ -1,0 +1,47 @@
+.main-screen {
+width: 100%;
+background: url('../img/png/header-fon.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+margin-bottom: 1px;    
+}
+
+.main-screen::after{
+content: '';
+position: absolute;
+z-index: 0;
+display: block;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.45);
+top: 0;
+left: 0;
+}
+
+.conteiner {
+    
+}
+
+.header-conteiner {
+    max-width: 544px;
+  display: block;
+  justify-content: center;
+  /*height: 600px;*/
+}
+
+.header-conteiner_title {
+}
+
+.header-conteiner_title-IT {
+}
+
+.header-conteiner_subtitle {
+}
+
+.header-conteiner_text {
+}
+
+.header-conteiner_button {
+}
