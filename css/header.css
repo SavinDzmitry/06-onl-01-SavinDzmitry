@@ -1,47 +1,198 @@
 .main-screen {
-width: 100%;
-background: url('../img/png/header-fon.png');
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-margin-bottom: 1px;    
+  width: 100%;
+  display: flex;
+  background: url('../img/png/header-fon.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 1px;
+  align-items: center;
 }
 
 .main-screen::after{
-content: '';
-position: absolute;
-z-index: 0;
-display: block;
-width: 100%;
-height: 100%;
-background-color: rgba(0, 0, 0, 0.45);
-top: 0;
-left: 0;
+ content: '';
+  position: absolute;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  top: 0;
+  left: 0;
 }
 
-.conteiner {
-    
+.main-screen-conteiner {
+  width: 100%;
+  flex: 1 1 auto;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
-.header-conteiner {
-    max-width: 544px;
+.axit-bloc {
+  max-width: 544px;
   display: block;
   justify-content: center;
-  /*height: 600px;*/
+  margin: 0px;
 }
 
-.header-conteiner_title {
+.axit-bloc_title {
+  padding: 80px 0 30px 0;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 70.31px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
-.header-conteiner_title-IT {
+.axit-bloc_title-IT {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 70.31px;
+  color: #ec7979;
+  text-transform: uppercase;
 }
 
-.header-conteiner_subtitle {
+.axit-bloc_subtitle {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ffffff
 }
 
-.header-conteiner_text {
+.axit-bloc_subtitle::after{
+  content:'';
+  display: block;
+  margin: 32px 0;
+  width: 64px;
+  border: 1px solid #ffffff80;
 }
 
-.header-conteiner_button {
+.axit-bloc_text {
+  max-width: 282px;
+  margin: 0px;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  color: #ffffff80;
+}
+
+.axit-bloc_button {
+  margin: 40px 0 40px 0;
+  display: block;
+  border: 1px solid #ffffff;
+  width: 135px;
+  padding: 11px 26px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 20.43px;
+}
+
+.axit-bloc_button:hover{
+  border: 1px solid #ec7979;
+  color: #ec7979;
+}
+
+.form-bloc-conteiner {
+  margin: 110px 0 120px 0;
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #ffffff;
+  
+}
+
+.form-bloc_title {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27.24px;
+  text-transform: capitalize;
+  color: #333333;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.form-bloc_title-red {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27.24px;
+  text-transform: capitalize;
+  color: #ec7979;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.form-bloc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 59px;
+}
+
+.form-conteiner_label {
+  display: block;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
+  margin: 19px auto 0 auto;
+}
+
+.form-conteiner_input {
+  display: block;
+  border-bottom: 1px solid #bdbdbd;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 2px;
+  width: 100%;
+}
+
+.main-screen-form_button {
+  margin-top: 60px;
+  border: 0;
+  border-radius: 0 0 8px 8px;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 20.43px;
+  padding: 16px 0;
+  width: 100%;
+  color: #ffffff;
+  background-color: #ec7979;
+  cursor: pointer;
+}
+
+.main-screen-form_button:hover{
+  background-color: #e0a0a0;
+  transition-property: font-weight;
+  font-weight: 800;
+  animation: blink 2s 0.5s infinite alternate;
 }
